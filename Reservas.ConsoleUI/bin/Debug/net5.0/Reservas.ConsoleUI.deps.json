@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Reservas.ConsoleUI/1.0.0": {
+        "dependencies": {
+          "Reservas.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Reservas.ConsoleUI.dll": {}
+        }
+      },
+      "Reservas.Domain/1.0.0": {
+        "dependencies": {
+          "ShareKernel": "1.0.0"
+        },
+        "runtime": {
+          "Reservas.Domain.dll": {}
+        }
+      },
+      "ShareKernel/1.0.0": {
+        "runtime": {
+          "ShareKernel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Reservas.ConsoleUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reservas.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShareKernel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\ShareKernel\bin\Debug\net5.0\ShareKernel.deps.json
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\ShareKernel\bin\Debug\net5.0\ShareKernel.dll
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\ShareKernel\bin\Debug\net5.0\ShareKernel.pdb
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.AssemblyReference.cache
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ShareKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfoInputs.cache
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfo.cs
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.CoreCompileInputs.cache
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ShareKernel.dll
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\refint\ShareKernel.dll
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ShareKernel.pdb
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ref\ShareKernel.dll
