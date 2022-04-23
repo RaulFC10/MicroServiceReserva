@@ -4,6 +4,7 @@ using Reservas.Domain.ValueObjects;
 using ShareKernel.Core;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 
 namespace Reservas.Domain.Model.Reservas
@@ -13,9 +14,18 @@ namespace Reservas.Domain.Model.Reservas
         public Guid IdVuelo { get; private set; }
         public NumeroReserva NroReserva { get; private set; }
         public PrecioValue Costo { get; private set; }
-        public ICollection<VueloReserva> VueloReserva { get; private set; }
+        public readonly ICollection<VueloReserva> VueloReserva;
 
-        public Reserva(Guid idVuelo, string nroReserva)
+
+        public IReadOnlyCollection<VueloReserva> Detalle
+        {
+            get
+            {
+                return new ReadOnlyCollection<VueloReserva>(VueloReserva.ToList());
+            }
+        }
+        private Reserva() { }
+        internal Reserva(Guid idVuelo, string nroReserva)
         {
             Id = Guid.NewGuid();
             IdVuelo = idVuelo;
@@ -26,11 +36,15 @@ namespace Reservas.Domain.Model.Reservas
 
         public void AgregarItem(Guid idPasajero, decimal costo)
         {
-            var detallePedido = VueloReserva.FirstOrDefault(x => x.IdPasajero == idPasajero);
-            if (detallePedido is null)
+            var detalleReserva = VueloReserva.FirstOrDefault(x => x.IdPasajero == idPasajero);
+            if (detalleReserva is null)
             {
-                detallePedido = new VueloReserva(idPasajero, costo);
-                VueloReserva.Add(detallePedido);
+                detalleReserva = new VueloReserva(idPasajero, costo);
+                VueloReserva.Add(detalleReserva);
+            }
+            else
+            {
+                detalleReserva.ModificarReserva(idPasajero, costo);
             }
             Costo += costo;
             AddDomainEvent(new ItemVueloReservaAgregado(idPasajero, Costo));
