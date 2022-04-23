@@ -1,0 +1,17 @@
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\Reservas.Application\bin\Debug\net5.0\Reservas.Application.deps.json
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\Reservas.Application\bin\Debug\net5.0\Reservas.Application.dll
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\Reservas.Application\bin\Debug\net5.0\Reservas.Application.pdb
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\Reservas.Application\bin\Debug\net5.0\Reservas.Domain.dll
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\Reservas.Application\bin\Debug\net5.0\ShareKernel.dll
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\Reservas.Application\bin\Debug\net5.0\Reservas.Domain.pdb
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\Reservas.Application\bin\Debug\net5.0\ShareKernel.pdb
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\Reservas.Application\obj\Debug\net5.0\Reservas.Application.csproj.AssemblyReference.cache
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\Reservas.Application\obj\Debug\net5.0\Reservas.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\Reservas.Application\obj\Debug\net5.0\Reservas.Application.AssemblyInfoInputs.cache
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\Reservas.Application\obj\Debug\net5.0\Reservas.Application.AssemblyInfo.cs
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\Reservas.Application\obj\Debug\net5.0\Reservas.Application.csproj.CoreCompileInputs.cache
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\Reservas.Application\obj\Debug\net5.0\Reservas.Application.csproj.CopyComplete
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\Reservas.Application\obj\Debug\net5.0\Reservas.Application.dll
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\Reservas.Application\obj\Debug\net5.0\refint\Reservas.Application.dll
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\Reservas.Application\obj\Debug\net5.0\Reservas.Application.pdb
+C:\Users\RAULF\Desktop\diplomado\MicroserviceReserva\Reservas.Application\obj\Debug\net5.0\ref\Reservas.Application.dll
