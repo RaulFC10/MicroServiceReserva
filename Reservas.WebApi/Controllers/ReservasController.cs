@@ -1,10 +1,7 @@
 ﻿using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Reservas.Application.Dto.Reserva;
-using Reservas.Application.UseCases.Command.Reservas.actualizarReserva;
 using Reservas.Application.UseCases.Command.Reservas.CrearReserva;
-using Reservas.Application.UseCases.Queries.Reservas.GetReservaById;
+using Reservas.Application.UseCases.Queries.Reservas.SearchReservas;
 using System;
 using System.Threading.Tasks;
 
@@ -22,37 +19,48 @@ namespace Reservas.WebApi.Controllers
         }
 
         [HttpPost]
+
         public async Task<IActionResult> Create([FromBody] CrearReservaCommand command)
         {
-            Guid id = await _mediator.Send(command);
+            try
+            {
+                var obj = await _mediator.Send(command);
 
-            if (id == Guid.Empty)
+                return Ok(new
+                {
+                    Resp = true,
+                    Message = "Reserva Registrada Correctamente",
+                    Data = new
+                    {
+                        nroReserva = (obj.NroReserva.Value).ToString(),
+                        costo = (obj.Costo.Value).ToString(),
+                        hora = obj.Hora.ToString(),
+                        horaLimitePago = obj.HoraLimite.ToString()
+                    }
+                });
+            
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new
+                {
+                    Resp = false,
+                    Message = ex.Message
+                });
+            }
+            
+        }
+
+        [Route("search")]
+        [HttpPost]
+        public async Task<IActionResult> Search([FromQuery] SearchReservasQuery query)
+        {
+            var reservas = await _mediator.Send(query);
+
+            if (reservas == null)
                 return BadRequest();
 
-            return Ok(id);
-        }
-
-        [HttpPut]
-        public async Task<IActionResult> Update([FromBody] ActualizarReservaCommand command)
-        {
-            Guid id = await _mediator.Send(command);
-
-            if (id == Guid.Empty)
-                return NotFound(id);
-
-            return Ok(id);
-        }
-
-        [Route("{id:guid}")]
-        [HttpGet]
-        public async Task<IActionResult> GetPedidoById([FromRoute] GetReservaByIdQuery command)
-        {
-            ReservaDto result = await _mediator.Send(command);
-
-            if (result == null)
-                return NotFound();
-
-            return Ok(result);
+            return Ok(reservas);
         }
     }
 }

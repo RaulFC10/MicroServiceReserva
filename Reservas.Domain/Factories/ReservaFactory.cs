@@ -5,9 +5,9 @@ namespace Reservas.Domain.Factories
 {
     public class ReservaFactory : IReservaFactory
     {
-        public Reserva Create(Guid idVuelo,string nroReserva)
+        public Reserva Create(Guid idVuelo,string nroReserva, DateTime fechaVuelo)
         {
-            return new Reserva(idVuelo, nroReserva);
+            return new Reserva(idVuelo, nroReserva, fechaVuelo);
         }
     }
 }

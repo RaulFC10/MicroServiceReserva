@@ -4,16 +4,14 @@ using Reservas.Application.Service;
 using Reservas.Domain.Factories;
 using Reservas.Domain.Model.Reservas;
 using Reservas.Domain.Repositories;
+using ShareKernel.Core;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace Reservas.Application.UseCases.Command.Reservas.CrearReserva
 {
-    public class CrearReservaHandler : IRequestHandler<CrearReservaCommand, Guid>
+    public class CrearReservaHandler : IRequestHandler<CrearReservaCommand, Reserva>
     {
         private readonly IReservaRepository _reservaRepository;
         private readonly ILogger<CrearReservaHandler> _logger;
@@ -30,12 +28,12 @@ namespace Reservas.Application.UseCases.Command.Reservas.CrearReserva
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<Guid> Handle(CrearReservaCommand request, CancellationToken cancellationToken)
+        public async Task<Reserva> Handle(CrearReservaCommand request, CancellationToken cancellationToken)
         {
+                string nroReserva = await _reservaService.GenerarNroReservaAsync();
+                Reserva objReserva = _reservaFactory.Create(request.IdVuelo, nroReserva, request.FechaVuelo);
             try
             {
-                string nroReserva = await _reservaService.GenerarNroReservaAsync();
-                Reserva objReserva = _reservaFactory.Create(request.IdVuelo, nroReserva);
                 foreach (var item in request.Detalle)
                 {
                     objReserva.AgregarItem(item.IdPasajero,item.Costo);
@@ -45,14 +43,13 @@ namespace Reservas.Application.UseCases.Command.Reservas.CrearReserva
                 await _reservaRepository.CreateAsync(objReserva);
                 await _unitOfWork.Commit();
 
-                return objReserva.Id;
-
              }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error al crear la reserva");
+                throw new BussinessRuleValidationException(ex.Message);
             }
-            return Guid.Empty;
+            return objReserva;
         }
     }
 }

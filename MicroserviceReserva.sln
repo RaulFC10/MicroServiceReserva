@@ -7,13 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShareKernel", "ShareKernel\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservas.Domain", "Reservas.Domain\Reservas.Domain.csproj", "{B9F6BAEE-3F36-48FA-83AA-7F7D8393BC17}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservas.ConsoleUI", "Reservas.ConsoleUI\Reservas.ConsoleUI.csproj", "{9BBB9EF8-93A5-40BB-BDE6-B81738CFAA0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservas.Application", "Reservas.Application\Reservas.Application.csproj", "{D7A390CC-6082-4DA2-A9B5-32A0F0E85AED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservas.Application", "Reservas.Application\Reservas.Application.csproj", "{D7A390CC-6082-4DA2-A9B5-32A0F0E85AED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservas.Infraestructure", "Reservas.Infraestructure\Reservas.Infraestructure.csproj", "{C89A1BD5-8F29-474E-A242-19E31848811C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservas.Infraestructure", "Reservas.Infraestructure\Reservas.Infraestructure.csproj", "{C89A1BD5-8F29-474E-A242-19E31848811C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservas.WebApi", "Reservas.WebApi\Reservas.WebApi.csproj", "{66D35F4A-0C38-4F4B-9F26-D5A1CC322635}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservas.WebApi", "Reservas.WebApi\Reservas.WebApi.csproj", "{66D35F4A-0C38-4F4B-9F26-D5A1CC322635}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{B9F6BAEE-3F36-48FA-83AA-7F7D8393BC17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9F6BAEE-3F36-48FA-83AA-7F7D8393BC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9F6BAEE-3F36-48FA-83AA-7F7D8393BC17}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9BBB9EF8-93A5-40BB-BDE6-B81738CFAA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9BBB9EF8-93A5-40BB-BDE6-B81738CFAA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9BBB9EF8-93A5-40BB-BDE6-B81738CFAA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9BBB9EF8-93A5-40BB-BDE6-B81738CFAA0D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D7A390CC-6082-4DA2-A9B5-32A0F0E85AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D7A390CC-6082-4DA2-A9B5-32A0F0E85AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7A390CC-6082-4DA2-A9B5-32A0F0E85AED}.Release|Any CPU.ActiveCfg = Release|Any CPU

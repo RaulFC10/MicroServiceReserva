@@ -1,32 +1,43 @@
-﻿using Reservas.Domain.Model.Reservas;
+﻿using Microsoft.EntityFrameworkCore;
+using Reservas.Domain.Model.Reservas;
+using Reservas.Domain.Model.Reservas.ValueObjects;
 using Reservas.Domain.Repositories;
+using Reservas.Infraestructure.EF.Contexts;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Reservas.Infraestructure.EF.Repository
 {
     public class ReservaRepository : IReservaRepository
     {
-        public Task CreateAsync(Reserva obj)
+        public readonly DbSet<Reserva> _reservas;
+        public ReservaRepository(WriteDbContext context)
         {
-            Console.WriteLine($"Insertando la reserva { obj.NroReserva }");
-
-            return Task.CompletedTask;
+            _reservas = context.Reserva;
         }
 
-        public Task<Reserva> FindByIdAsync(Guid id)
+        public async Task CreateAsync(Reserva obj)
         {
-            Console.WriteLine($"Retornando la reserva { id }");
+            await _reservas.AddAsync(obj);
+        }
 
-            return null;
+        public async Task<Reserva> FindByIdAsync(Guid id)
+        {
+            return await _reservas.Include("_vueloReserva")
+                    .SingleAsync(x => x.Id == id);
+        }
+
+        public async Task<Reserva> ObtReserva(string nroReserva)
+        {
+            return await _reservas
+                .Where(u => u.Activo == true)
+                .FirstOrDefaultAsync(u => u.NroReserva == nroReserva);
         }
 
         public Task UpdateAsync(Reserva obj)
         {
-            Console.WriteLine($"Actualizando ls reserva { obj.NroReserva }");
+            _reservas.Update(obj);
 
             return Task.CompletedTask;
         }

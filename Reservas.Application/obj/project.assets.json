@@ -99,6 +99,9 @@
       "ShareKernel/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MediatR": "10.0.1"
+        },
         "compile": {
           "bin/placeholder/ShareKernel.dll": {}
         },
@@ -310,11 +313,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RAULF\\Desktop\\diplomado\\MicroserviceReserva\\Reservas.Application\\Reservas.Application.csproj",
+      "projectUniqueName": "C:\\Users\\RAULF\\Desktop\\MicroserviceReserva\\Reservas.Application\\Reservas.Application.csproj",
       "projectName": "Reservas.Application",
-      "projectPath": "C:\\Users\\RAULF\\Desktop\\diplomado\\MicroserviceReserva\\Reservas.Application\\Reservas.Application.csproj",
+      "projectPath": "C:\\Users\\RAULF\\Desktop\\MicroserviceReserva\\Reservas.Application\\Reservas.Application.csproj",
       "packagesPath": "C:\\Users\\RAULF\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RAULF\\Desktop\\diplomado\\MicroserviceReserva\\Reservas.Application\\obj\\",
+      "outputPath": "C:\\Users\\RAULF\\Desktop\\MicroserviceReserva\\Reservas.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -335,8 +338,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\RAULF\\Desktop\\diplomado\\MicroserviceReserva\\Reservas.Domain\\Reservas.Domain.csproj": {
-              "projectPath": "C:\\Users\\RAULF\\Desktop\\diplomado\\MicroserviceReserva\\Reservas.Domain\\Reservas.Domain.csproj"
+            "C:\\Users\\RAULF\\Desktop\\MicroserviceReserva\\Reservas.Domain\\Reservas.Domain.csproj": {
+              "projectPath": "C:\\Users\\RAULF\\Desktop\\MicroserviceReserva\\Reservas.Domain\\Reservas.Domain.csproj"
             }
           }
         }

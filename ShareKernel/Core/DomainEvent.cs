@@ -1,8 +1,9 @@
-﻿using System;
+﻿using MediatR;
+using System;
 
 namespace ShareKernel.Core
 {
-    public abstract record DomainEvent
+    public abstract record DomainEvent : INotification
     {
         public DateTime OccuredOn { get; }
         public Guid Id { get; }

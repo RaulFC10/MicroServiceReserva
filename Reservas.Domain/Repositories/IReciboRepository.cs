@@ -1,4 +1,4 @@
-﻿using Reservas.Domain.Model.Recibos;
+﻿using Reservas.Domain.Model.Pagos;
 using ShareKernel.Core;
 using System;
 

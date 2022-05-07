@@ -8,6 +8,7 @@ namespace Reservas.Domain.Repositories
 {
     public interface IUnitOfWork
     {
+        Task guardar();
         Task Commit();
     }
 }
