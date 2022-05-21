@@ -32,7 +32,7 @@ namespace Reservas.Domain.Model.Reservas
             }
         }
         private Reserva() { }
-        internal Reserva(Guid idVuelo, string nroReserva, DateTime fechaVuelo)
+        public Reserva(Guid idVuelo, string nroReserva, DateTime fechaVuelo)
         {
             DateTime horaActual = DateTime.Now;
             DateTime horaLimite= horaActual.AddHours(2);

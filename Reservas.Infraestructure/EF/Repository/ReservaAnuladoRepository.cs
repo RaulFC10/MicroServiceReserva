@@ -22,7 +22,8 @@ namespace Reservas.Infraestructure.EF.Repository
 
         public Task<ReservaAnulado> FindByIdAsync(Guid id)
         {
-            throw new NotImplementedException();
+            return _anulacion
+                .FirstOrDefaultAsync(r => r.Id == id);
         }
     }
 }

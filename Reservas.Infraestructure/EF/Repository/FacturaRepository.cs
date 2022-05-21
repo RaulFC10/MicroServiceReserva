@@ -23,7 +23,8 @@ namespace Reservas.Infraestructure.EF.Repository
 
         public Task<Factura> FindByIdAsync(Guid id)
         {
-            throw new NotImplementedException();
+            return _factura
+                .FirstOrDefaultAsync(r => r.Id == id);
         }
     }
 }

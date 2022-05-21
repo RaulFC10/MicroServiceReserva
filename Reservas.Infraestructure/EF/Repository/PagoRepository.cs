@@ -30,7 +30,8 @@ namespace Reservas.Infraestructure.EF.Repository
 
         public Task<Pago> FindByIdAsync(Guid id)
         {
-            throw new NotImplementedException();
+            return _pagos
+                .FirstOrDefaultAsync(r => r.Id == id);
         }
     }
 }

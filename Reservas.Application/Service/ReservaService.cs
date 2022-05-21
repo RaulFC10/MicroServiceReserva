@@ -9,8 +9,9 @@ namespace Reservas.Application.Service
         {
             Random r = new Random();
             int digitos =  r.Next(1000, 9999);
-            
+
             return Task.FromResult($"R-{digitos}");
+            //return Task.FromResult($"R-001");
         }
     }
 }
