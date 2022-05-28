@@ -35,7 +35,7 @@ namespace Reservas.Application.UseCases.Command.Pagos.RegistrarPago
             try
             {
 
-                Reserva objReserva = await _reservaRepository.ObtReserva(request.Pago.NroReserva);
+                Reserva objReserva = await _reservaRepository.ObtReserva(request.NroReserva);
                 if (objReserva is null)
                 {
                     throw new BussinessRuleValidationException("No se encontro el nroReserva");
@@ -43,8 +43,8 @@ namespace Reservas.Application.UseCases.Command.Pagos.RegistrarPago
 
                 decimal total =  _pagoRepository.ObtTotalImporte(objReserva.Id);
 
-                Pago objPago = _pagoFactory.Create(objReserva.Id, objReserva.Costo, request.Pago.ImportePagado);
-                var(tipo, importeDado) = objPago.ObtTipoandImporteDado(objReserva.Costo, request.Pago.ImportePagado, total);
+                Pago objPago = _pagoFactory.Create(objReserva.Id, objReserva.Costo, request.ImportePagado);
+                var(tipo, importeDado) = objPago.ObtTipoandImporteDado(objReserva.Costo, request.ImportePagado, total);
                 objPago.ConsolidarPago(objReserva.Id, importeDado, tipo);
                 await _pagoRepository.CreateAsync(objPago);
                 await _unitOfWork.guardar();

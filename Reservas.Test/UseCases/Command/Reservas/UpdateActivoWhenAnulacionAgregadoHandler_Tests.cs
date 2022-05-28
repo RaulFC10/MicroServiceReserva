@@ -45,7 +45,8 @@ namespace Reservas.Test.UseCases.Command.Reservas
             var tcs = new CancellationTokenSource(1000);
             var re = handler.Handle(objRequest, tcs.Token);
             reservaTest.AnularReserva();
-            Assert.Equal('A', reservaTest.Estado);
+
+            Assert.Equal('e', reservaTest.Estado);
             Assert.False(reservaTest.Activo);
 
         }
