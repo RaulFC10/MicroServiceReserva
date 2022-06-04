@@ -3,10 +3,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Reservas.Application.Service;
 using Reservas.Application.Service.Interface;
 using Reservas.Domain.Factories;
+using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
 namespace Reservas.Application
 {
+    [ExcludeFromCodeCoverage]
     public static class Extensions
     {
         public static IServiceCollection AddApplication(this IServiceCollection services)

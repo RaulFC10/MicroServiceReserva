@@ -1,9 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Reservas.Domain.Model.ReservaAnulados;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Reservas.Infraestructure.EF.Config.WriteConfig
 {
+    [ExcludeFromCodeCoverage]
     public class ReservaAnuladoWriteConfig : IEntityTypeConfiguration<ReservaAnulado>
     {
         public void Configure(EntityTypeBuilder<ReservaAnulado> builder)

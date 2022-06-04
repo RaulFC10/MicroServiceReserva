@@ -7,10 +7,12 @@ using Reservas.Domain.Repositories;
 using Reservas.Infraestructure.EF;
 using Reservas.Infraestructure.EF.Contexts;
 using Reservas.Infraestructure.EF.Repository;
+using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
 namespace Reservas.Infraestructure
 {
+    [ExcludeFromCodeCoverage]
     public static class Extensions
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)

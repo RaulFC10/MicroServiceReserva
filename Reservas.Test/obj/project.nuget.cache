@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fgfS1Bk9FyXz4r7l+uitjjvsy+Oj9Pz5TC/NAyUu3hiZ29PgPmSlTN85s1xqS6/2KZo/2HGGjHNEUWsrnkSCSw==",
+  "dgSpecHash": "WzX7X5Ltqh5rivzHH00FbnKIbwYfFmh3BS1etb7td6bVdagGII2ZK7fiGV6N4c9aArre5ZVdmto+gjtpQlF7bQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RAULF\\Desktop\\MicroserviceReserva\\Reservas.Test\\Reservas.Test.csproj",
+  "projectFilePath": "C:\\Users\\RAULF\\Desktop\\Nueva carpeta (6)\\MicroserviceReserva\\Reservas.Test\\Reservas.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RAULF\\.nuget\\packages\\castle.core\\5.0.0\\castle.core.5.0.0.nupkg.sha512",
     "C:\\Users\\RAULF\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",

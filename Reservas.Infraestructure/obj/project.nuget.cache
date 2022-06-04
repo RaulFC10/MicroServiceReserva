@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GECBCN9zdCPfsOo5x/2ZSiIpsCOm4u3u+AFjS6rTK+oHeVOnz1hAsJMQd+SJ8anwWF7Kie771tF2kVNkW68BWg==",
+  "dgSpecHash": "Yaa0pDMkDvDoTJdx4ahgVr8KuMjJ4x1cSHY/IrJ56TLOLOXLQmwoRpxS/N7ztu20MTCRTOWFrW+mRTo65hOadA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RAULF\\Desktop\\MicroserviceReserva\\Reservas.Infraestructure\\Reservas.Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\RAULF\\Desktop\\Nueva carpeta (6)\\MicroserviceReserva\\Reservas.Infraestructure\\Reservas.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RAULF\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\RAULF\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "shlsSWcPHRq8yiO8FJqAKNfFlXB/GB+Xp7JwrE3GS1uJdZhKLjXjhjR2c0ug0V9hnQxis4yO+yArtzUf7OvMIw==",
+  "dgSpecHash": "PUGLtkJb7E3F675Fm3HVR7e6I8EsPqOd6/NnBijSwky2qN9BjruZb6AdYX7h9gWaezmbyKhi1We1OhSh4i0A1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RAULF\\Desktop\\MicroserviceReserva\\Reservas.Domain\\Reservas.Domain.csproj",
+  "projectFilePath": "C:\\Users\\RAULF\\Desktop\\Nueva carpeta (6)\\MicroserviceReserva\\Reservas.Domain\\Reservas.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RAULF\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\RAULF\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"

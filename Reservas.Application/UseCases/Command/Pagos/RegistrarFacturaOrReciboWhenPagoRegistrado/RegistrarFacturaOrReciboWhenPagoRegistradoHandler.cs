@@ -42,7 +42,7 @@ namespace Reservas.Application.UseCases.Command.Pagos.RegistrarFacturaOrReciboWh
                     string nroFactura = await _facturaService.GenerarNroFacturaAsync();
                     Factura objFactura = _facturaFactory.Create(notification.PagoId, nroFactura, notification.Importe);
         
-                    objFactura.ConsolidarFactura(notification.ReservaId);
+                    //objFactura.ConsolidarFactura(notification.ReservaId);
                     Reserva obj = await _reservaRepository.FindByIdAsync(notification.ReservaId);
                     obj.VentaReserva();
                     await _reservaRepository.UpdateAsync(obj);

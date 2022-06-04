@@ -22,3 +22,15 @@ C:\Users\RAULF\Desktop\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ShareKer
 C:\Users\RAULF\Desktop\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\refint\ShareKernel.dll
 C:\Users\RAULF\Desktop\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ShareKernel.pdb
 C:\Users\RAULF\Desktop\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ref\ShareKernel.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\ShareKernel\bin\Debug\net5.0\ShareKernel.deps.json
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\ShareKernel\bin\Debug\net5.0\ShareKernel.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\ShareKernel\bin\Debug\net5.0\ShareKernel.pdb
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.AssemblyReference.cache
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ShareKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfoInputs.cache
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ShareKernel.AssemblyInfo.cs
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ShareKernel.csproj.CoreCompileInputs.cache
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ShareKernel.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\refint\ShareKernel.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ShareKernel.pdb
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\ShareKernel\obj\Debug\net5.0\ref\ShareKernel.dll

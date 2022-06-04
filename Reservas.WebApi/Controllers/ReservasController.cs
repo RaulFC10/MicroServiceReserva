@@ -32,12 +32,13 @@ namespace Reservas.WebApi.Controllers
                     Message = "Reserva Registrada Correctamente",
                     Data = new
                     {
+                        id = obj.Id,
                         nroReserva = (obj.NroReserva.Value).ToString(),
                         costo = (obj.Costo.Value).ToString(),
                         hora = obj.Hora.ToString(),
                         horaLimitePago = obj.HoraLimite.ToString()
                     }
-                });
+                }); ; ;
             
             }
             catch (Exception ex)
@@ -52,7 +53,7 @@ namespace Reservas.WebApi.Controllers
         }
 
         [Route("search")]
-        [HttpPost]
+        [HttpGet]
         public async Task<IActionResult> Search([FromQuery] SearchReservasQuery query)
         {
             var reservas = await _mediator.Send(query);
@@ -62,5 +63,8 @@ namespace Reservas.WebApi.Controllers
 
             return Ok(reservas);
         }
+
+
+ 
     }
 }

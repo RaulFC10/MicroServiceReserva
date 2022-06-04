@@ -1,9 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Reservas.Infraestructure.EF.ReadModel;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Reservas.Infraestructure.EF.Config.ReadConfig
 {
+    [ExcludeFromCodeCoverage]
     public class ReciboReadConfig : IEntityTypeConfiguration<ReciboReadModel>
     {
         public void Configure(EntityTypeBuilder<ReciboReadModel> builder)

@@ -4,9 +4,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Reservas.Domain.Model.Pagos;
 using Reservas.Domain.Model.Reservas.ValueObjects;
 using Reservas.Domain.ValueObjects;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Reservas.Infraestructure.EF.Config.WriteConfig
 {
+    [ExcludeFromCodeCoverage]
     public class ReciboWriteConfig : IEntityTypeConfiguration<Recibo>
     {
         public void Configure(EntityTypeBuilder<Recibo> builder)

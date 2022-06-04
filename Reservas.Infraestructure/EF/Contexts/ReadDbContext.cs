@@ -3,12 +3,16 @@ using Reservas.Domain.Event;
 using Reservas.Infraestructure.EF.Config.ReadConfig;
 using Reservas.Infraestructure.EF.ReadModel;
 using ShareKernel.Core;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Reservas.Infraestructure.EF.Contexts
 {
+    [ExcludeFromCodeCoverage]
     public class ReadDbContext : DbContext
     {
         public virtual DbSet<ReservaReadModel> Reserva { set; get; }
+
+        
         public virtual DbSet<PagoReadModel> Pago { set; get; }
         public virtual DbSet<FacturaReadModel> Factura { set; get; }
         public virtual DbSet<ReciboReadModel> Recibo { set; get; }
@@ -25,7 +29,7 @@ namespace Reservas.Infraestructure.EF.Contexts
             var reservaConfig = new ReservaReadConfig();
             modelBuilder.ApplyConfiguration<ReservaReadModel>(reservaConfig);
             modelBuilder.ApplyConfiguration<VueloReservaReadModel>(reservaConfig);
-
+            
             var PagoConfig = new PagoReadConfig();
             modelBuilder.ApplyConfiguration<PagoReadModel>(PagoConfig);
 
@@ -37,7 +41,7 @@ namespace Reservas.Infraestructure.EF.Contexts
 
             var ReservaAnuladoConfig = new ReservaAnuladoReadConfig();
             modelBuilder.ApplyConfiguration<ReservaAnuladoReadModel>(ReservaAnuladoConfig);
-
+            
             modelBuilder.Ignore<DomainEvent>();
             modelBuilder.Ignore<ReservaCreado>();
             modelBuilder.Ignore<ItemReservaAgregado>();

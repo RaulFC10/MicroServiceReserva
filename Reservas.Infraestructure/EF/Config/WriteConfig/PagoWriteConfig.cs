@@ -3,9 +3,11 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Reservas.Domain.Model.Pagos;
 using Reservas.Domain.ValueObjects;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Reservas.Infraestructure.EF.Config.WriteConfig
 {
+    [ExcludeFromCodeCoverage]
     public class PagoWriteConfig : IEntityTypeConfiguration<Pago>
     {
         public void Configure(EntityTypeBuilder<Pago> builder)

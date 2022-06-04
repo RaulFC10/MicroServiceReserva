@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZJoCoB2SxG7q79WaXnLOJCEapb4ujrfCqD4ZoCEoTPcfvjqGv6Ui4Qs270u+8qFvvxNCJiLPunKmq5XT2jNjeg==",
+  "dgSpecHash": "GCAu7rIhJTzrDs5f7VYuG0BuVJVjHortYBVaLxJqljf8A0vAnm5SkuGdNj0G8PONwCflRsUX9cTmW9Aa3bAPrA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RAULF\\Desktop\\MicroserviceReserva\\ShareKernel\\ShareKernel.csproj",
+  "projectFilePath": "C:\\Users\\RAULF\\Desktop\\Nueva carpeta (6)\\MicroserviceReserva\\ShareKernel\\ShareKernel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RAULF\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\RAULF\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"

@@ -8,6 +8,13 @@ namespace Reservas.Application.UseCases.Command.Pagos.RegistrarPago
     {
         public decimal ImportePagado { get; set; }
         public string NroReserva { get; set; }
+
+        private RegistrarPagoCommand() { }
+        public RegistrarPagoCommand(decimal importePagado, string nroReserva)
+        {
+            ImportePagado = importePagado;
+            NroReserva = nroReserva;
+        }
     
     }
 }

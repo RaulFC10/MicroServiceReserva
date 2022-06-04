@@ -20,7 +20,7 @@ namespace ShareKernel.Core
         {
             _domainEvents.Add(evento);
         }
-
+        /*
         public void ClearDomainEvents()
         {
             _domainEvents.Clear();
@@ -37,5 +37,6 @@ namespace ShareKernel.Core
                 throw new BussinessRuleValidationException(rule);
             }
         }
+        */
     }
 }

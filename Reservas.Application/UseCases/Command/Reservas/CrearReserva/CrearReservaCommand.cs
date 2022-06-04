@@ -10,9 +10,11 @@ namespace Reservas.Application.UseCases.Command.Reservas.CrearReserva
     {
         private CrearReservaCommand() { }
 
-        public CrearReservaCommand(List<VueloReservaDto> detalle)
+        public CrearReservaCommand(List<VueloReservaDto> detalle, Guid idVuelo, DateTime fechaVuelo)
         {
             Detalle = detalle;
+            IdVuelo = idVuelo;
+            FechaVuelo = fechaVuelo;
         }
         public Guid IdVuelo { get; set; }
         public DateTime FechaVuelo{ get; set; }

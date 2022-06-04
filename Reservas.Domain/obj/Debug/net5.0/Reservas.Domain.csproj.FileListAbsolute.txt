@@ -28,3 +28,18 @@ C:\Users\RAULF\Desktop\MicroserviceReserva\Reservas.Domain\obj\Debug\net5.0\Rese
 C:\Users\RAULF\Desktop\MicroserviceReserva\Reservas.Domain\obj\Debug\net5.0\refint\Reservas.Domain.dll
 C:\Users\RAULF\Desktop\MicroserviceReserva\Reservas.Domain\obj\Debug\net5.0\Reservas.Domain.pdb
 C:\Users\RAULF\Desktop\MicroserviceReserva\Reservas.Domain\obj\Debug\net5.0\ref\Reservas.Domain.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\Reservas.Domain\bin\Debug\net5.0\Reservas.Domain.deps.json
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\Reservas.Domain\bin\Debug\net5.0\Reservas.Domain.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\Reservas.Domain\bin\Debug\net5.0\Reservas.Domain.pdb
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\Reservas.Domain\bin\Debug\net5.0\ShareKernel.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\Reservas.Domain\bin\Debug\net5.0\ShareKernel.pdb
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\Reservas.Domain\obj\Debug\net5.0\Reservas.Domain.csproj.AssemblyReference.cache
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\Reservas.Domain\obj\Debug\net5.0\Reservas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\Reservas.Domain\obj\Debug\net5.0\Reservas.Domain.AssemblyInfoInputs.cache
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\Reservas.Domain\obj\Debug\net5.0\Reservas.Domain.AssemblyInfo.cs
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\Reservas.Domain\obj\Debug\net5.0\Reservas.Domain.csproj.CoreCompileInputs.cache
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\Reservas.Domain\obj\Debug\net5.0\Reservas.Domain.csproj.CopyComplete
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\Reservas.Domain\obj\Debug\net5.0\Reservas.Domain.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\Reservas.Domain\obj\Debug\net5.0\refint\Reservas.Domain.dll
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\Reservas.Domain\obj\Debug\net5.0\Reservas.Domain.pdb
+C:\Users\RAULF\Desktop\Nueva carpeta (6)\MicroserviceReserva\Reservas.Domain\obj\Debug\net5.0\ref\Reservas.Domain.dll

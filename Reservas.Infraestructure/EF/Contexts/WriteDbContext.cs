@@ -5,9 +5,11 @@ using Reservas.Domain.Model.ReservaAnulados;
 using Reservas.Domain.Model.Reservas;
 using Reservas.Infraestructure.EF.Config.WriteConfig;
 using ShareKernel.Core;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Reservas.Infraestructure.EF.Contexts
 {
+    [ExcludeFromCodeCoverage]
     public class WriteDbContext : DbContext
     {
         public virtual DbSet<Reserva> Reserva { get; set; }
@@ -41,7 +43,7 @@ namespace Reservas.Infraestructure.EF.Contexts
         
            var ReservaAnuladoConfig = new ReservaAnuladoWriteConfig();
            modelBuilder.ApplyConfiguration<ReservaAnulado>(ReservaAnuladoConfig);
-    
+        
             modelBuilder.Ignore<DomainEvent>();
             modelBuilder.Ignore<ReservaCreado>();
             modelBuilder.Ignore<PagoRegistrado>();

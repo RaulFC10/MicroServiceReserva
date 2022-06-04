@@ -5,9 +5,11 @@ using Reservas.Domain.Model.Reservas;
 using Reservas.Domain.Model.Reservas.ValueObjects;
 using Reservas.Domain.ValueObjects;
 using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Reservas.Infraestructure.EF.Config.WriteConfig
 {
+    [ExcludeFromCodeCoverage]
     public class ReservaWriteConfig : IEntityTypeConfiguration<Reserva>,
         IEntityTypeConfiguration<VueloReserva>
     {

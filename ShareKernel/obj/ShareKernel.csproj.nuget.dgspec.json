@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RAULF\\Desktop\\MicroserviceReserva\\ShareKernel\\ShareKernel.csproj": {}
+    "C:\\Users\\RAULF\\Desktop\\Nueva carpeta (6)\\MicroserviceReserva\\ShareKernel\\ShareKernel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RAULF\\Desktop\\MicroserviceReserva\\ShareKernel\\ShareKernel.csproj": {
+    "C:\\Users\\RAULF\\Desktop\\Nueva carpeta (6)\\MicroserviceReserva\\ShareKernel\\ShareKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RAULF\\Desktop\\MicroserviceReserva\\ShareKernel\\ShareKernel.csproj",
+        "projectUniqueName": "C:\\Users\\RAULF\\Desktop\\Nueva carpeta (6)\\MicroserviceReserva\\ShareKernel\\ShareKernel.csproj",
         "projectName": "ShareKernel",
-        "projectPath": "C:\\Users\\RAULF\\Desktop\\MicroserviceReserva\\ShareKernel\\ShareKernel.csproj",
+        "projectPath": "C:\\Users\\RAULF\\Desktop\\Nueva carpeta (6)\\MicroserviceReserva\\ShareKernel\\ShareKernel.csproj",
         "packagesPath": "C:\\Users\\RAULF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RAULF\\Desktop\\MicroserviceReserva\\ShareKernel\\obj\\",
+        "outputPath": "C:\\Users\\RAULF\\Desktop\\Nueva carpeta (6)\\MicroserviceReserva\\ShareKernel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tdlvKdtYtd911QOoZWesSKXV8Iipn78Db6ApQBif83lqEDJyKW5jdAL5cRhbmT4ewgDs3LoQLuuSKSU7vJzU5w==",
+  "dgSpecHash": "rjaaj04pEh/xD8yM6Dy0ub24orR7TbgK61l6HoAdTI0Txt3tt3Mlg9uI4Yq6pVXaNeA04KGGEEXqZ3GJr2/vfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RAULF\\Desktop\\MicroserviceReserva\\Reservas.WebApi\\Reservas.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\RAULF\\Desktop\\Nueva carpeta (6)\\MicroserviceReserva\\Reservas.WebApi\\Reservas.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RAULF\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\RAULF\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
